@@ -25,6 +25,7 @@ const Widgets = () => {
       <WidgetsDropdown />
       <CRow>
         <CCol xs="12" sm="6" lg="3">
+          CWidgetProgress
           <CWidgetProgress color="success" header="89.9%" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."/>
         </CCol>
         <CCol xs="12" sm="6" lg="3">
@@ -55,7 +56,9 @@ const Widgets = () => {
       </CRow>
 
       <CRow>
+
         <CCol xs="12" sm="6" lg="3">
+          CWidgetIcon
           <CWidgetIcon text="income" header="$1.999,50" color="primary">
             <CIcon width={24} name="cil-settings"/>
           </CWidgetIcon>
@@ -130,7 +133,9 @@ const Widgets = () => {
           </CWidgetIcon>
         </CCol>
       </CRow>
+      WidgetsBrand
       <WidgetsBrand/>
+      WidgetsBrand withCharts
       <WidgetsBrand withCharts/>
       <CCardGroup className="mb-4">
         <CWidgetProgressIcon
